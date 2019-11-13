@@ -43,10 +43,6 @@ function createElementBase(incomingJSON) {
   newHeading.innerHTML = incomingJSON['name'];
   newElement.appendChild(newHeading);
 
-  let newSubhead = document.createElement("H4");
-  newSubhead.innerHTML = "Price:";
-  newElement.appendChild(newSubhead);
-
   let newPrice = document.createElement("UL");
   newElement.appendChild(newPrice);
 
